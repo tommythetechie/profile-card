@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    
+}
+.background-img {
+    position: relative;
+}
+.top-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.bottom-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+}
+.profile {
+    margin-top: 150px;
+}
