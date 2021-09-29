@@ -7,9 +7,9 @@ body {
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
-.background {
+/*.background {
     max-width: 900px;
     height: auto;
 }
@@ -28,18 +28,24 @@ body {
     bottom: 0;
     right: 0;
 }
+*/
 .wrapper {
-    max-width: 375px;
+    max-width: 425px;
     margin: 0 auto;
+    padding-top: 150px;
+    height: 100vh;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    
 }
 .profile {
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 375px;
     grid-template-rows: 150px 150px 150px;
     background-color: #fff;
     border-radius: 14px;
-    position: relative;
+    
 }
 .header {
     background-image: url('images/bg-pattern-card.svg');
