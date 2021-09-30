@@ -45,6 +45,8 @@ body {
     grid-template-rows: 150px 150px 150px;
     background-color: #fff;
     border-radius: 14px;
+    max-width: 375px;
+    margin: 0 auto;
     
 }
 .header {
